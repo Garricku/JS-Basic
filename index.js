@@ -38,7 +38,7 @@ howOldAreYou();
 // I didn't use semicolong this time gasp
 howOldAreYou()
 
-// Lets try with a class doing the same thing
+// Lets try with an object doing a simliar thing
 userDetails = {
     userId: 'xy777',
     firstName: 'Garrick',
