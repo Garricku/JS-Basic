@@ -18,7 +18,7 @@ function howOldAreYou() {
         console.log(userAge);
         userAge = 12;
     }
-    else if (userAge == undefined) {
+    else if (userAge == null) {
         console.log('You should not be asking my age!')
         userAge = 29;
     }
@@ -26,7 +26,7 @@ function howOldAreYou() {
         // Here we use the double quotes, so there are no issues with the apostrophe in the word can't
         console.log("I can't drink yet!");
         // Opps I did it again! I changed the variable...
-        userAge = undefined;
+        userAge = null;
         console.log(userAge);
     }
 }
